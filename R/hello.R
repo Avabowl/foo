@@ -14,5 +14,16 @@
 #   Test Package:              'Ctrl + Shift + T'
 
 hello <- function() {
-  print("Hello, world!")
+  cat("
+Happy New Year to LiaoLab!
+------
+  \\
+   \\
+   ε⌒ﾍ⌒ヽﾌ
+  (　( ･ω･)
+  　 ε⌒ﾍ⌒ヽﾌ⌒ヽﾌ
+  　 (　( ･ω･) ･ω･)
+  ε⌒ﾍ⌒ヽﾌ⌒ヽﾌ⌒ヽﾌ
+  (　( ･ω･) ･ω･) ･ω･)
+  'し-し-Ｊ し-Ｊし-Ｊ")
 }

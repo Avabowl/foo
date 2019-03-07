@@ -1,11 +1,34 @@
 Package: foo
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Help to choose preprocess methods for label-free MS proteomics
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Wanbing Zhao
+Maintainer: Wanbing Zhao <zwanbing@qq.com>
+Depends:
+    R(>= 3.5.0)
+Suggests:
+    roxygen2,
+    knitr
+Description:This package can help users to assess their label-free proteomics data.And help to choose proper methods for preprocession.The users must input the data in specific format.
+License: GPL
 Encoding: UTF-8
 LazyData: true
+Imports:
+    openxlsx,
+    NormalizeMets,
+    limma,
+    sva,
+    preprocessCore,
+    mice,
+    missForest,
+    imp4p,
+    impute,
+    wesanderson,
+    pheatmap,
+    Rtsne,
+    dendextend,
+    calibrate,
+    reshape2,
+    repr,
+    ggpubr
+RoxygenNote: 6.1.1
